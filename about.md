@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: index
 tagline: acerca de MOREL
 ---
