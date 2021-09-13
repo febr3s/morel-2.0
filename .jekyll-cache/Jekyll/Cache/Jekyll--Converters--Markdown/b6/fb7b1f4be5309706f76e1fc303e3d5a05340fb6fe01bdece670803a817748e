@@ -1,0 +1,27 @@
+I"Ÿ<h1 id="layouts-scheme">Layouts scheme</h1>
+
+<ul>
+  <li>default
+    <ul>
+      <li>list
+        <ul>
+          <li>repository</li>
+          <li>author</li>
+          <li>editorial</li>
+          <li>city</li>
+        </ul>
+      </li>
+      <li>index</li>
+      <li>page
+        <ul>
+          <li>blog</li>
+          <li>post</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="day-log">Day log</h1>
+
+:ET
