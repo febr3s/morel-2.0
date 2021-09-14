@@ -1,3 +1,13 @@
 url:
 baseurl:
 title: MOREL
+
+author : 
+  name : MOREL
+  site: https://morel.la
+  description : Metadatos de Obras para Repositorios Electrónicos Latinoamericanos impulsa la creación de archivos digitales autosustentables.
+  image : avatar.png
+  email : proyectomorel@gmail.com
+  github : morelcoop
+  twitter : morelrep
+  instagram: morelrep

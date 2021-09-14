@@ -21,82 +21,15 @@
 
       
          <!--promoción proyecto-->
-        <div class="row obras">
-            <h2 class="index">Acerca de morel</h2>
-        </div>
-        <div class="obra-dia sombra">
-            <div class="ficha-container" style="">
-                <div class="ficha-extract" style="">
-                    <p>
-                        <b class="morel-word">MOREL</b> es una <a class="morel" href="post.html#4">metodología</a> de código abierto y cooperativa para servir obras latinoamericanas de dominio público  de procedencia confiable, organizadas en <a class="morel" href="post.html#3">series dinámicas e interactivas</a>. Haciendo clic en el <a class="morel" href="prototipo.html">demo</a> que tienes en este panel, puedes navegar el prototipo de la primera aplicación desarrollada por <b class="morel-word">MOREL</b>: <b class="site-word">literaturavenezolana.info</b>. 
-                    </p>
-                    <p>Con nuestros recursos actuales hemos podido completar la interfaz de usuario, la configuración del CMS y  el <a class="morel" href="post.html#6">procesamiento en base de datos </a>de las primeras 71 obras y 19 autores, 8 repositorios y 10 lugares. Con tus compras en esta tienda y tus <a class="morel" href="donacion.html">donaciones</a>, sumaremos recursos para terminar la aplicación, donde a partir de su <a class="morel" href="post.html#5">lanzamiento</a> tendremos 365 obras disponibles al cabo de un año, mientras nos preparamos para el lanzamiento de las <a class="morel" href="post.html#7">próximas aplicaciones y publicaciones</a>.</p>
-                </div>
-                <div class="ficha-metadata">
-                    Creado por <span class="metadata-input">Estudiantes + Profesores venezolanos</span> // en <span class="metadata-input">Caracas</span> en <span class="metadata-input">2018 - 2019</span> // &iquest;Quieres <a class="metadata-input" href="post.html">saber m&aacute;s</a>?
-                </div>
-            </div>
-            <div class="portada" style="">
-                <div class="img-frame">
-                    <video width="100%" height="auto" autoplay loop muted>
-                      <source src="{{ BASE_PATH }}/img/demo-litven.mp4" type="video/mp4">
-                      <source src="movie.ogg" type="video/ogg">
-                      Tu explorador no puede reproducir este video. Haz clic en prototipo en el menú principal para navegar el demo.
-                    </video>
-                </div>
-            </div><!--
-            <div class="actions-v">
-                <i class="fa fa-share-alt"></i><br>
-                <i class="fa fa-download"></i><br>
-                <i class="fa fa-shopping-cart"></i>
-            </div>-->
-        </div>
+        {% include promotion.html %}
     </div>
        
 
     <!--footer-->
-  <footer class="default-footer text-center">
-        <div class="container">
-          <img class="mb-40 footer-logo" src="{{ BASE_PATH }}/img/logo.png" alt="">
-          <span class="copy-right dis-blk" style="color:var(--color-3)">Desarrollado por <a class="morel" href="https://febr3s.xyz">@febr3s</a></span>
-          <span class="social">
-                  
-                  <a class="morel" href="https://twitter.com/morelrep"><i class="fa fa-2x fa-twitter"></i></a>
-                  
-                  <a class="morel" href="https://www.instagram.com/morelrep/"><i class="fa fa-2x fa-instagram"></i></a>                            
-                
-          </span>
-        </div>
-      </footer>
-    <!-- fin del footer -->
-    <style type="text/css" media="screen">
-        .default-footer {
-    background: var(--background);
-    padding-bottom: 100px;
-    padding-top: 100px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.12), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
-.text-center {
-    text-align: center !important;}
-    .dis-blk {
-    display: block;
-    margin-bottom: 30px;
-}
-.copy-right {
-    font-size: 12px;
-    color: #bac0cb;
-}
-footer .social a {
-    font-size: 14px;
-    margin-left: 10px;
-}
+ 
 
-.footer-logo {
-    width: auto;
-}
-.mb-40 {
-    margin-bottom: 40px;
-}
-    </style>
+      {% include footer.html %}
+    <!-- fin del footer -->
+ 
 </body>
 </html>
