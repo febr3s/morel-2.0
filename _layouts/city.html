@@ -1,0 +1,42 @@
+<!-- Post header -->
+      <div class="header-style-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="hero-content-v2" style="margin-top:10px!important;">
+                <h3><strong>Obras publicadas en {{ page.title }}</strong></h3>                     
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+<!-- Post content+sidebar -->
+
+<div class="mb-60"></div>
+
+  <!-- Blog content + sidebar -->
+  <section id="post" class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12" style="padding-bottom: 2rem">
+          
+           {% for book in site.books %}
+  {% if book.ciudad == page.title %}
+  <a href="{{ book.url | relative_url }}" class="post-link">
+    <h2>{{ book.title }}</h2>
+    <h4 style="font-weight: 200">{{ book.author }}{% if book.author2 %}, {{ book.author2 }}{% endif %}{% if book.author3 %}, {{ booj.author3 }}{% endif %}</h4>
+    <br style="line-height: 1em;">
+  </a>
+  {% endif %}
+{% endfor %}                
+        </div>                    
+        <div>
+          {% include side-bar.html %}
+        </div>
+      </div>
+     </div>
+   </section>
+
