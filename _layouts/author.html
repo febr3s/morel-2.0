@@ -1,57 +1,39 @@
+---
+layout: page
+---
 
-  <div class="header-style-2">
-        <div class="container">
-          <div class="row">
-            <div>
-              <div class="hero-content-v2" style="margin-top:10px!important;">
-                <h3><strong> Obras de {{ page.title }} en MOREL</strong></h3>
-                <div class="posts">
-                  {% for book in site.books %}
-                    {% if book.author == page.title %}
-                    <div class="post py3">
-                     <a href="{{ book.url | relative_url }}" class="post-link">
-                        <h2>
-                          {{ book.title }}
-                        </h2>
-                      </a>
-                      <p>Edición publicada en {{ book.ciudad }} por {{ book.editorial }} en {{ book.edicion }}</p>
-                    </div>
-                    <div class="mb-60"></div> 
-                     {% elsif book.author2 == page.title %}
-                       <div class="post py3">
-                     <a href="{{ book.url | relative_url }}" class="post-link">
-                        <h2>
-                          {{ book.title }}
-                        </h2>
-                      </a>
-                      <p>Edición publicada en {{ book.ciudad }} por {{ book.editorial }} en {{ book.edicion }}</p>
-                    </div>
-                    <div class="mb-60"></div> 
-                     {% elsif book.author3 == page.title %}
-                      <div class="post py3">
-                     <a href="{{ book.url | relative_url }}" class="post-link">
-                        <h2>
-                          {{ book.title }}
-                        </h2>
-                      </a>
-                      <p>Edición publicada en {{ book.ciudad }} por {{ book.editorial }} en {{ book.edicion }}</p>
-                    </div>
-                    <div class="mb-60"></div> 
-                     {% endif %}
-                  {% endfor %}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  </div>
-  <!-- Blog content + sidebar -->
-  <section id="post" class="blog">
-    <div class="container">
-      <div class="row">                   
-        <div>
-          {% include side-bar.html %}
-        </div>
+<!--page content-->
+
+  <!--Ficha del autor-->
+<div class="autor-pagina sombra">
+    <div class="ficha-container">
+      <div class="ficha-title">
+        <h2>
+          {{ page.nombre }} <a class="morel a2a_dd" href="https://www.addtoany.com/share">
+                            <i class="fa fa-share-alt">
+                                <script async src="https://static.addtoany.com/menu/page.js"></script>
+                            </i></a>
+        </h2>
       </div>
-     </div>
-   </section>
+        <div class="ficha-extract" style="">
+        <p>
+          {{ content }}
+        </p>
+      </div>
+      <div class="ficha-metadata">
+        Nació en <a class="metadata-input"><label for="listas">{{ page.city-born }}</label></a> el <a class="metadata-input"><label for="listas">29 de noviembre de 1781</label></a>.<br>
+        Falleció en <a class="metadata-input"><label for="listas">Santiago de Chile</label></a> el <a class="metadata-input"><label for="listas">15 de octubre de 1865</label></a>.
+      </div>
+    </div>
+    <div class="portada" style="">
+      <div class="img-frame">  
+      <img src="../img/Raymond%20Monvoisin%20-%20AndresBello_retrato.jpg" class="responsive">
+      </div>
+      <div class="actions-h">
+       
+      </div>      
+    </div>
+</div>        
+        <!--fin de autores-->
+        <!--Obras-->
+        
