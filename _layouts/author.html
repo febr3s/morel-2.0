@@ -15,19 +15,19 @@ layout: page
                             </i></a>
         </h2>
       </div>
-        <div class="ficha-extract" style="">
+      <div class="ficha-extract" style="">
         <p>
           {{ content }}
         </p>
       </div>
       <div class="ficha-metadata">
-        Nació en <a class="metadata-input"><label for="listas">{{ page.city-born }}</label></a> el <a class="metadata-input"><label for="listas">29 de noviembre de 1781</label></a>.<br>
-        Falleció en <a class="metadata-input"><label for="listas">Santiago de Chile</label></a> el <a class="metadata-input"><label for="listas">15 de octubre de 1865</label></a>.
+        Nació en <a class="metadata-input"><label for="listas">{{ page.city-born }}</label></a> el <a class="metadata-input"><label for="listas">{{ page.date-born }}</label></a>.<br>
+        Falleció en <a class="metadata-input"><label for="listas">{{ page.city-death }}</label></a> el <a class="metadata-input"><label for="listas">{{ page.date-death }}</label></a>.
       </div>
     </div>
     <div class="portada" style="">
       <div class="img-frame">  
-      <img src="../img/Raymond%20Monvoisin%20-%20AndresBello_retrato.jpg" class="responsive">
+      <img src="{{ BASE_PATH }}/img/{{ page.img }}" class="responsive">
       </div>
       <div class="actions-h">
        
@@ -36,4 +36,4 @@ layout: page
 </div>        
         <!--fin de autores-->
         <!--Obras-->
-        
+{% include lista-relacionadas-autora.html %}
