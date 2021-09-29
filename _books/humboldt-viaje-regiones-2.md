@@ -18,5 +18,4 @@ feature: true
 ---
  
 
-Con el temor de que nuestros guías aprovecha­sen tal circunstancia p a ra abandonarnos, hicimos que nos precedieran los que portaban los instrum entos mas pre­cisos, y continuam os escalando las cuestas que se incli­nan hacia la grieta de Chacaíto. La locuacidad familiar de los negros criollos contrastaba con una gravedad taciturna de los indios, cual la de los que constantemente nos habían acom pañado en las misiones de Caripe: se burlaban de los que tan presto h ab ían renunciado a un
-proyecto largam ente preparado, y de quien menos se compadecían era de un joven fraile capuchino
+Partimos de Caracas el 7 de febrero, con la fresca de la tarde, para emprender nuestro viaje al Orinoco. El recuerdo de esta partida es hoy para nosotros más doloroso de lo que fué hace algunos años. Nuestros amigos han perecido en las sangrientas revoluciones que a su vez han concedido o arrebatado la libertad a estas apartadas regiones. La casa que hemos habitado ya no es sino un montón de escombros. Pavorosos temblores de tierra han cambiado la superficie del suelo. La ciudad que describí ha desaparecido. En sus propios asientos, en esa tierra agrietada, se levanta con lentitud otra ciudad. Las ruinas amontonadas, sepulcros de una numerosa población, ya son de nuevo morada de los hombres.

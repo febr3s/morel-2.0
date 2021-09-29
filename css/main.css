@@ -55,6 +55,11 @@ a.morel, footer a {
   font-weight: 500;
   transition: all 1s ease; }
 
+.ficha-metadata a {
+  color: var(--color-1);
+  font-weight: 700;
+  transition: all 1s ease; }
+
 a.metadata-input, footer a {
   color: var(--color-1);
   transition: all 1s ease;
@@ -1055,6 +1060,9 @@ text-align: center;
 
 }
 
+h1.list {
+  visibility: hidden;
+}
 
 h2.index {
 
