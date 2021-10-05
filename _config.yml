@@ -34,3 +34,6 @@ collections:
   repositories:
     output: true
     permalink: /repositorios/:name
+  periods:
+    output: true 
+    permalink: /periodos/:name
