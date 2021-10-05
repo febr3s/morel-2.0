@@ -1,7 +1,7 @@
 ---
 title: Obras Completas II, Poema del Cid
 layout: book
-editorial: "Impreso Por Pedro G. Ramírez"
+editorial: "Pedro G. Ramírez"
 ciudad: Santiago de Chile	
 edicion: 1881
 year: 
