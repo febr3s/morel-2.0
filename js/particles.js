@@ -47,7 +47,7 @@ let pJS = function(e, a) {
                     nb_sides: 5
                 },
                 image: {
-                    src: "img/m.png",
+                    src: "/img/m.png",
                     width: 87,
                     height: 98
                 }
@@ -293,7 +293,7 @@ let pJS = function(e, a) {
                 if ("svg" == i.tmp.img_type) var r = a.img.obj;
                 else var r = i.tmp.img_obj;
                 var element = document.createElement('img');
-				element.src = 'img/m.png';
+				element.src = '/img/m.png';
 				r = element;
                 r && e();
                 break;
@@ -301,7 +301,7 @@ let pJS = function(e, a) {
                 if ("svg" == i.tmp.img_type) var r = a.img.obj;
                 else var r = i.tmp.img_obj;
                 var element = document.createElement('img');
-				element.src = 'img/o.png';
+				element.src = '/img/o.png';
 				r = element;
                 r && e();
              	break;
@@ -309,7 +309,7 @@ let pJS = function(e, a) {
                 if ("svg" == i.tmp.img_type) var r = a.img.obj;
                 else var r = i.tmp.img_obj;
                 var element = document.createElement('img');
-				element.src = 'img/r.png';
+				element.src = '/img/r.png';
 				r = element;
                 r && e();
 	            break;
@@ -317,7 +317,7 @@ let pJS = function(e, a) {
                 if ("svg" == i.tmp.img_type) var r = a.img.obj;
                 else var r = i.tmp.img_obj;
                 var element = document.createElement('img');
-				element.src = 'img/e.png';
+				element.src = '/img/e.png';
 				r = element;
                 r && e();
                 break;
@@ -325,7 +325,7 @@ let pJS = function(e, a) {
                 if ("svg" == i.tmp.img_type) var r = a.img.obj;
                 else var r = i.tmp.img_obj;
                 var element = document.createElement('img');
-				element.src = 'img/l.png';
+				element.src = '/img/l.png';
 				r = element;
                 r && e();
              	break;
