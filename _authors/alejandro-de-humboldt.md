@@ -4,7 +4,7 @@ title: "Alejandro de Humboldt"
 feature: true
 img: Alejandro-de-Humboldt.jpg
 city-born: Berlín
-date-born: 14 de septiembre de 1769
+date-born: 1769-09-14
 city-death: Berlín
-date-death: 6 de mayo de 1859
+date-death: 1859-05-06
 ---
