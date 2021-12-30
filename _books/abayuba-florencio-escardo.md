@@ -15,6 +15,7 @@ descarga: https://ia803406.us.archive.org/28/items/abayuba-novela-historico/Abay
 biblioteca: http://www.worldcat.org/oclc/1235508717
 comprar: 
 periodo: "Siglo XIX"
+genero: ficción
 ---
  
 

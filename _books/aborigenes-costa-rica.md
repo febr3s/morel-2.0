@@ -14,7 +14,8 @@ descarga: https://ia801508.us.archive.org/20/items/los-aborigenes-de-costa-rica-
 biblioteca: http://www.worldcat.org/oclc/318460911
 comprar: 
 periodo: "Siglo XX"
-feature: 
+feature:
+
 ---
  
 ¡Cuánto progresarían nuestras Repúblicas si la juventud, en lugar de perder el tiempo en vanos escarceos literarios o en continuos placeres, dedicase algunas horas a recoger objetos arqueológicos, datos histéricos y geográficos, cantos, tradiciones y cuentos populares, en una palabra todo el material con que más tarde han de formarse la ciencia y la literatura nacionales! Conocer su propio país es el primer deber de todo hombre, y quien no conoce su patria no puede amarla.
